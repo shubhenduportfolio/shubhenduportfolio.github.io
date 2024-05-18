@@ -226,6 +226,10 @@ header.sticky{
 }
 .box img{
     margin-bottom: 20px;
+    height: 100%;
+    width: 100%;
+}
+
 }
 .box h3{
     font-size: 30px;
