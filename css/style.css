@@ -279,9 +279,10 @@ header.sticky{
 }
 
 .portfolio-link {
-    text-decoration: none;
-    color: var(--text-color);
-    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    line-height: 1.4;
 }
 
 .portfolio-link:hover {
