@@ -280,7 +280,7 @@ header.sticky{
 
 .portfolio-link {
     text-decoration: none;
-    color: inherit;
+    color: var(--text-color);
     display: block;
 }
 
