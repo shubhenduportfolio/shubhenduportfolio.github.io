@@ -277,6 +277,17 @@ header.sticky{
     gap: 2.3rem;
     margin-top: 4.2rem;
 }
+
+.portfolio-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.portfolio-link:hover {
+    opacity: 0.95;
+}
+
 .row img {
     width: 360px;
     height: 200px;
