@@ -279,14 +279,18 @@ header.sticky{
 }
 
 .portfolio-link {
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-    line-height: 1.4;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
-.portfolio-link:hover {
-    opacity: 0.95;
+/* Prevent link styling from affecting child elements */
+.portfolio-link h4,
+.portfolio-link h5,
+.portfolio-link .row-icon,
+.portfolio-link .row-text {
+    color: inherit;
+    text-decoration: none;
 }
 
 .row img {
